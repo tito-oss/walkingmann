@@ -1,0 +1,27 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90vw;
+  height: 90vh;
+}
+
+.Map {
+  position: relative;
+  width: 700px;
+  height: 700px;
+  background-color: green;
+}
+
+.Person {
+  position: absolute;
+  width: 35px;
+  height: 36px;
+
+  background: url("./img/sprite.png");
+}
